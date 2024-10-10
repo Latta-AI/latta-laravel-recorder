@@ -1,0 +1,24 @@
+{
+    "name": "lattaai/latta-laravel-recorder",
+    "type": "library",
+    "description": "Latta Laravel Recorder",
+    "keywords": ["latta"],
+    "homepage": "https://latta.ai",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Latta AI s.r.o.",
+            "email": "info@latta.ai"
+        }
+    ],
+    "require": {
+        "php": ">=5.0",
+       "lattaai/latta-php-recorder": "^1.0"
+    },
+    "autoload": {
+        "psr-4": { "LattaAi\\Laravel\\Recorder\\": "" }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
