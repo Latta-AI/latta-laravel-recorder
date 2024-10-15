@@ -4,7 +4,7 @@
     "description": "Latta Laravel Recorder",
     "keywords": ["latta"],
     "homepage": "https://latta.ai",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +14,8 @@
     ],
     "require": {
         "php": ">=5.0",
-       "lattaai/latta-php-recorder": "^1.0"
+       "lattaai/latta-php-recorder": "^1.0",
+        "illuminate/support": "^11.27"
     },
     "autoload": {
         "psr-4": { "LattaAi\\Laravel\\Recorder\\": "" }
