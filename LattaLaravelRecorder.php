@@ -1,6 +1,7 @@
 <?php
 
 namespace LattaAi\Recorder\Laravel;
+
 use Exception;
 use Illuminate\Support\Facades\Storage;
 use LattaAi\Recorder\LattaAttachment;
