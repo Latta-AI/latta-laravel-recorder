@@ -32,6 +32,6 @@ class LattaLaravelRecorder extends LattaRecorder {
         $lattaSnapshot = $this->api->putSnapshot($lattaInstance, "", null, LattaRecorder::$relationID);
 
         $attachment = new LattaAttachment($exception, LattaRecorder::$logs);
-        $this->api->putAttachment($lattaSnapshot, $attachment);
+        $this->api->putAttachment($lattaSnapshot, $attachment->toString());
     }
 }
